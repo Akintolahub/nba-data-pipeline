@@ -4,3 +4,5 @@
 *.cfg
 *.json
 *.yaml
+*.txt
+Dockerfile*
