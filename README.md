@@ -5,6 +5,17 @@ Welcome to the **Data Pipeline and Analytics Project** repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
+## 🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Landing**, **Staging**, and **Reporting** layers:
+![Data Architecture](docs/High Level Architechture.png)
+
+1. **Data Lake**: Stores data from source system. Data is transformed from pandas dataframes to CSV Files and loaded into Google Cloud Storage Buckets.
+2. **Landing Layer**: Stores raw data from the source systems. Data is ingested from CSV Files into Google BigQuery.
+3. **Staging Layer**: This layer includes a heavy transfromation processes to prepare data for analysis.
+4. **Reporting Layer**: Houses user-ready data modeled into a star schema required for reporting and analytics.
+
+---
 
 ## 🚀 Project Requirements
 
