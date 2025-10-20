@@ -8,7 +8,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Landing**, **Staging**, and **Reporting** layers:
-![Data Architecture](High Level Architechture.png)
+[Data Architecture](https://github.com/Akintolahub/nba-data-pipeline/blob/4449465c7c65469a47ce0e9cff1794adde2b0009/docs/High%20Level%20Architechture.png)
 
 1. **Data Lake**: Stores data from source system. Data is transformed from pandas dataframes to CSV Files and loaded into Google Cloud Storage Buckets.
 2. **Landing Layer**: Stores raw data from the source systems. Data is ingested from CSV Files into Google BigQuery.
