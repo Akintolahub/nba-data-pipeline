@@ -6,4 +6,5 @@
 *.yaml
 *.txt
 *.pyc
+*.csv
 Dockerfile*
